@@ -1,0 +1,134 @@
+:root{
+    --biege:#f8f6e3; /*Hex code for the color*/
+    --teal:#97e7e1;
+    --darkCyan: #6ad4dd;
+    --lightOceanBlue: #7aa2e3;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+    background-color: var(--darkCyan);
+    height: 8vmin;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 7px var(--lightOceanBlue);
+}
+
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 8vmin;
+    height: 8vmin;
+}
+
+.logo-wrapper h1{
+    font-size: 4vmin;
+    color: var(--lightOceanBlue);
+}
+
+.link{
+    font-size: 3vmin;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 4px;
+    padding: 2px;
+    color: var(--lightOceanBlue);
+}
+
+.link:hover{ /*hover means once hovered do this */
+    background-color: var(--lightOceanBlue);
+    color: var(--darkCyan);
+}
+
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vmin;
+}
+
+.intro-header{
+    font-size: 4vmin;
+    color: var(--lightOceanBlue);
+}
+
+.item-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vmin;
+}
+
+.item-header{
+    font-size: 3vmin;
+    color: var(--lightOceanBlue);
+    margin-bottom: 2vmin;
+}
+
+.item{
+    width: 80vmin;
+    height: 60vmin;
+    margin: 1vmin;
+    border-radius: 20px;
+}
+
+.item-link{
+    font-size: 3vmin;
+    text-decoration: none;
+    color: var(--lightOceanBlue);
+    background-color: var(--biege);
+    width: 30vmin;
+    text-align: center;
+    padding: 4px;
+    border-radius: 10px;
+    border: var(--lightOceanBlue) 2px solid;
+}
+
+.item-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.item-title{
+    font-size: 10vmin;
+    color: var(--lightOceanBlue);
+    margin-bottom: 2vmin;
+}
+
+.item-image{
+    width: 100vmin;
+    border-radius: 20px;
+    margin-bottom: 2vmin;
+}
+
+.item-description{
+    font-size: 4vmin;
+    color: var(--lightOceanBlue);
+}
+
+.item-price{
+    font-size: 5vmin;
+    color: red;
+}
+
+
